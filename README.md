@@ -7,7 +7,7 @@ Created By: Shawn Oyer, Leland Ly and Ahmad Javed on 8/22/2024
 
 Abstract: Credit card fraud detection is a critical concern for ecommerce platforms and financial institutions, given the rise of fraudulent transactions posing as substantial financial and security risks. This project utilizes PySpark and machine learning techniques to develop models for predicting fraudulent transactions in an e-commerce setting. A synthetic dataset was acquired from kaggle containing a variety of features commonly found in transactional data, with additional attributes specifically engineered to support the development and testing of fraud detection algorithms. We employed both traditional and deep learning models, including Logistic Regression (LR) and a Recurrent Neural Network (RNN) model called Gated Recurrent Units (GRU), to address the challenge of class imbalance  inherent in fraud detection tasks. Initially, both models achieved high accuracy but struggled with fraud detection due to class imbalance. Predicting fraud detection improved when optimizing strategies were implemented, to include class weighting. The results underscore the importance of model tuning and feature engineering in enhancing the predictive performance of fraud detection systems and the need for continuous refinement in fraud detection methodologies.  
 
-Data:
+Data: The data can be downloaded here: https://www.kaggle.com/datasets/shriyashjagtap/fraudulent-e-commerce-transactions 
 (a) Data Type: .CSV
 (b) Number of Transactions in Version 1: 1,472,952
 (c) Number of Transactions in Version 2: 23, 634
